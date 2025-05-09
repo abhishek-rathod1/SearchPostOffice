@@ -187,3 +187,82 @@ h2{
 #more-info-list{
   
 }
+
+
+@media screen and (max-width: 1024px) {
+  .homeImg {
+    width: 40vw;
+    height: auto;
+  }
+
+  #left, #right {
+    width: 100vw;
+    height: auto;
+    /* margin: ; */
+  }
+
+  #homePage {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #right button {
+    width: 80vw;
+    font-size: 24px;
+  }
+
+  input {
+    font-size: 24px;
+    width: 80vw;
+  }
+
+  .info {
+    font-size: 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .info div {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .card {
+    width: 85vw;
+    font-size: 24px;
+  }
+
+  iframe {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1, h2 {
+    font-size: 28px;
+    margin: 20px;
+    font-size: 22px;
+  }
+
+  .homeImg {
+    width: 80vw;
+  }
+
+  #right button {
+    font-size: 20px;
+  }
+
+  .card {
+    font-size: 20px;
+    padding: 12px;
+  }
+
+  input {
+    font-size: 20px;
+    width: 80vw;
+  }
+
+  .info div {
+    font-size: 20px;
+  }
+}
