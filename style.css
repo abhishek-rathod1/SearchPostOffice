@@ -2,6 +2,18 @@ body{
   background-color: black;
   padding: 0;
   margin-top: -10px;
+   font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.app-name{
+  font-family: "Rouge Script", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 100px;
+  /* padding: 10px;  */
+  margin: 20px 0;
+
 }
 
 
